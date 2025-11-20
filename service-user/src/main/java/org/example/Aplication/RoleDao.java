@@ -1,6 +1,6 @@
-package org.example.dao;
+package org.example.Aplication;
 
-import org.example.entity.Role;
+import org.example.Domain.Entity.Role;
 
 import java.util.List;
 

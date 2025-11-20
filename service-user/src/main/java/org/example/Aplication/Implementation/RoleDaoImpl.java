@@ -1,7 +1,7 @@
-package org.example.dao.impl;
+package org.example.Aplication.Implementation;
 
-import org.example.dao.RoleDao;
-import org.example.entity.Role;
+import org.example.Aplication.RoleDao;
+import org.example.Domain.Entity.Role;
 
 import java.util.List;
 

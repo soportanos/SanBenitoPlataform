@@ -1,11 +1,12 @@
-package org.example.dao.core;
+package org.example.Infraestructure;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoDatabase;
+import org.example.Infraestructure.SecundaryPorts.Connection;
 
 
-public abstract class ConnectionCore {
-    public MongoDatabase  getConnection() throws Exception{
+public class ConnectionMongoBD implements Connection {
+    public MongoDatabase  getConnection(){
 
         //Parameters
         String host = "localhost";
